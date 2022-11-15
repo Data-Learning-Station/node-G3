@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+
+    <form action="https://questions.com" method="post">
+        <div>
+            <label for="">Ismingiz: </label>
+            <input name="ism" type="text">
+        </div>
+        <div>
+            <label for="">Familiya: </label>
+            <input name="familiya" type="text">
+        </div>
+        <div>
+            <label for="">Yoshingiz: </label>
+            <input name="yosh" type="number">
+        </div>
+        <div>
+            <label for="">Email: </label>
+            <input name="email" type="email">
+        </div>
+        <button> Yuborish </button>
+    </form>
+    <hr>
+
+    <fieldset>
+        <legend style="text-align: center;"> User Data </legend>
+        <table>
+            <tr>
+                <td> <label for=""> Ismingiz: </label> </td>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+                <td> <label for=""> Yoshingizni kiriting: </label> </td>
+                <td> <input type="number"> </td>
+            </tr>
+            <tr>
+                <td> <label for=""> Tugilgan kuningiz: </label> </td>
+                <td> <input type="date"> </td>
+            </tr>
+            <tr>
+                <td> <label for=""> Nechada uxladingiz?: </label> </td>
+                <td> <input type="time"> </td>
+            </tr>
+            <tr>
+                <td> <label for=""> Email: </label> </td>
+                <td> <input type="email"> </td>
+            </tr>
+            <tr>
+                <td> <label for=""> Rasmingizni yuklang: </label> </td>
+                <td> <input type="file" multiple accept="*/*"> </td>
+            </tr>
+
+            <tr>
+                <td> <label for=""> Password: </label> </td>
+                <td> <input type="password"> </td>
+            </tr>
+
+            <tr>
+                <td> <label for=""> Shartnomani qabul qilasizmi: </label> </td>
+                <td> <input type="checkbox"> </td>
+            </tr>
+
+            <tr>
+                <td> <label for=""> Sizning moshinangiz qanaqa markada </label> </td>
+                <td>
+                    <input type="radio" name="car"> Chevrolet
+                    <input type="radio" name="car"> Daewoo
+                    <input type="radio" name="car"> Chevrolet Matiz
+                    <input type="radio" name="car"> Daewoo Matiz
+                    <input type="radio" name="airplane"> Daewoo Nexia
+                    <input type="radio" name="airplane"> Chevrolet Nexia
+                </td>
+            </tr>
+
+            <tr>
+                <td> Yaxshi korgan mevangiz </td>
+                <td>
+                    <select>
+                        <option value=""> Olma </option>
+                        <option value=""> Anor </option>
+                        <option value=""> Uzum </option>
+                        <option value=""> Banana </option>
+                        <option value=""> Ananas </option>
+                        <option value=""> Mondarin </option>
+                        <option value=""> Qiwi </option>
+                        <option value=""> Limon </option>
+                        <option value=""> Shaptoli </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button style="background-color: crimson; color: white; border: none;"> Yuborish! </button>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <textarea cols="30" rows="20"></textarea>
+    
+</body>
+
+</html>
