@@ -1,0 +1,87 @@
+/* tag selector
+h1, h2, h3, h4, h5, h6 {
+    color: crimson;
+}
+
+p {
+    color: chocolate;
+    background-color: aliceblue;
+}
+
+
+h1#hello {
+    color: blue;
+}
+
+p#hello {
+    color: yellowgreen;
+}
+
+#red-1 {
+    color: red;
+}
+
+#red-2 {
+    color: red;
+}
+
+
+.title {
+    color: rgb(56, 56, 56);
+    font-size: 48px;
+    font-family: sans-serif;
+}
+
+.red {
+    color: red;
+} */
+/* 
+h1 {
+    color: blueviolet;
+}
+
+span {
+    color: gray;
+}
+
+div h1 {
+    color: green;
+}
+
+div p {
+    color: orange;
+}
+
+p#red {
+    color: red;
+}
+
+h2#gg.bg.white {
+    background-color: bisque;
+    color: rgb(125, 106, 83);
+}
+
+img {
+    float: right;
+}
+
+.number {
+    color: blue;
+    font-weight: 500;
+} */
+
+input.input {
+    background-color: antiquewhite;
+}
+
+.input[type="text"] {
+    background-color: red;
+}
+
+.input[type="email"] {
+    background-color: blue;
+}
+
+input.input[type="password"] {
+    background-color: green;
+}

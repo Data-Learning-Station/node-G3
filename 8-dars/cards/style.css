@@ -1,0 +1,41 @@
+.box {
+    width: 25%;
+    background-color: crimson;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+.instagram {
+    width: 40px;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.lorem {}
+
+.read-more {
+    width: 100%;
+    background-color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 60px;
+    text-transform: uppercase;
+    color: crimson;
+}
+
+.box.black {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.box.black .read-more {
+    background-color: black;
+    color: white;
+}
