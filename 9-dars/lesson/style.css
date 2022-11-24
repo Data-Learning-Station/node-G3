@@ -1,0 +1,72 @@
+.box {
+    background-color: crimson;
+    width: 300px;
+    height: 300px;
+
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; */
+
+    margin: 30px; /* top right bottom left */
+    margin: 40px 100px; /* vectical horizontal */
+    margin: 20px 40px 60px 100px; /* top right bottom left */
+
+    padding: 30px;
+    /* 
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+    */
+    /* border: 5px solid yellow; */
+    border-left: 5px solid rgb(0, 170, 255);
+
+    /* border-style: dashed; */
+    /* border-style: dotted; */
+    /* border-style: double; */
+    /* border-style: groove; */
+    /* border-style: ridge; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+}
+
+.small-box {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    /* margin: 30px 0px 0px 30px; */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* color name */
+    /* color hex */
+    /* color rgb(a) */
+    /* red   = 0-255 */
+    /* green = 0-255 */
+    /* blue  = 0-255 */
+    /* rgb(150, 255, 0) */
+    /* HEX */
+
+    /* ff 00 00 */
+
+    /* 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F */
+
+    /* background-color: #ff0000; */
+
+    /* background-image: url(../fox.jpg);
+    background-repeat: no-repeat;
+    /* background-position-x: right; */
+    /* background-position-y: center;
+    background-size: cover; */
+
+    text-transform: lowercase;
+}
+
+p {
+    font-weight: 100;
+    font-size: 36px;
+    font-style: oblique;
+    line-height: 44px;
+}

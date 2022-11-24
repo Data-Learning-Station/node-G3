@@ -1,0 +1,25 @@
+.frame {
+    width: 600px;
+    background-color: antiquewhite;
+    border: 5px solid brown;
+    padding: 20px;
+    /* 
+    margin-left: auto;
+    margin-right: auto;
+    */
+    margin: 0 auto;
+}
+
+.image {
+    width: 70%;
+    border: 5px inset orange;
+}
+
+.text {
+    width: 70%;
+    height: 200px;
+    background-color: yellow;
+    border: 5px dashed orange;
+    font-size: 21px;
+    overflow-y: auto;
+}
