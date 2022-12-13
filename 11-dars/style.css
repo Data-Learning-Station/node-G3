@@ -1,0 +1,155 @@
+body {
+    font-family: sans-serif;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 0;
+    background-color: crimson;
+    color: white;
+    transition: all 2s 0s ease;
+}
+
+.button:active {
+    margin-top: 5px;
+    background-color: rgb(136, 11, 36);
+    border-radius: 5px;
+}
+
+.button:active {
+    background-color: rgb(92, 7, 24);
+    border-radius: 15px;
+}
+
+ul {
+    background-color: aliceblue;
+    padding: 10px;
+    list-style-type: none;
+}
+
+li {
+    background-color: rgb(204, 230, 252);
+    padding: 10px;
+    margin-top: 5px;
+    border-left: 3px solid rgb(65, 180, 15);
+}
+
+li:first-child {
+    border-color: black;
+}
+
+li:last-child {
+    border-color: brown;
+}
+
+li:nth-child(2) {
+    border-color: orange;
+}
+
+li:nth-last-child(2) {
+    border-color: blue;
+}
+
+li:nth-child(odd) {
+    border-color: crimson;
+}
+
+li:nth-child(odd):hover {
+    border-color: rgb(157, 15, 43);
+}
+
+li:nth-child(even):active {
+    border-color: rgb(87, 164, 9);
+}
+
+.line {
+    display: inline-block;
+    width: 100px;
+    height: 3px;
+    background-color: blueviolet; 
+}
+
+h1 {
+}
+
+h1::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: aquamarine;
+    margin-left: auto;
+}
+
+p::first-letter {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    color: crimson;
+    padding: 5px;
+    border: 1px solid rgba(204, 204, 204, 0.404);
+}   
+
+p::first-line {
+    text-decoration-line: underline;
+    text-decoration-color: crimson;
+    text-decoration-style: solid;
+}
+
+input {
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"] {
+    background-color: aqua;
+}
+
+input[type="email"] {
+    background-color: rgb(85, 0, 255);
+}
+
+input[type="password"] {
+    background-color: coral;
+}
+
+input:focus 
+{ 
+    outline: none;
+    background-color: crimson;
+    color: white;
+}
+
+input::placeholder {
+    font-size: 13px;
+    font-style: italic;
+    color: #ccc;
+}
+
+.float-btn {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0px 13px 27px -7px rgba(28, 113, 177, 0.607);
+    transition: all 0.5s 0s ease;
+}
+
+.float-btn:active {
+    padding: 10px 20px;
+}
