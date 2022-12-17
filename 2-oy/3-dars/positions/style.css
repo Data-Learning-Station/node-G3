@@ -1,0 +1,38 @@
+.wrapper {
+    /* background-color: rgb(113, 232, 169); */
+    /* width: 600px;*/
+    height: 2500px; 
+}
+header {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    background-color: antiquewhite;
+}
+
+header.red {
+    background-color: red;
+}
+
+header.yellow {
+    background-color: orange;
+}
+
+.box {
+    background-color: crimson;
+    width: 350px;
+    height: 200px;
+    position: relative;
+}
+.badge {
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -25px;
+}

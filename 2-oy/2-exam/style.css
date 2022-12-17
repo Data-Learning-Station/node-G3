@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+aside {
+    width: 80px;
+    padding: 16px;
+    background-color: #15202B;
+    border-radius: 32px;
+    transition: all 0.5s 0s ease;
+}
+
+.sidebar {
+    list-style-type: none;
+}
+
+.sidebar-item {
+    color: white;
+    padding: 16px 28px 16px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 20px;
+}
+
+.sidebar-item span {
+    display: none;
+}
+
+.sidebar-item.tweeter {
+    color: #1D9BF0;
+}
+
+.tweet {
+    background-color: #1D9BF0;
+    padding: 18px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.5s 0 ease;
+}
+
+.tweet i {
+    display: initial;
+}
+
+aside:hover {
+    width: 300px;
+}
+
+aside:hover .sidebar-item {
+    justify-content: flex-start;
+}
+
+aside:hover .sidebar-item span {
+    display: initial;
+}
+
+aside:hover .tweet i {
+    display: none;
+}
+
+aside:hover .tweet  {
+    border-radius: 50px;
+}
+aside:hover .tweet span {
+    display: initial;
+}

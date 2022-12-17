@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Nerko+One:regular);
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nerko One';
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+aside {
+    width: 250px;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    height: 70px;
+}
+
+main {
+    flex-grow: 1;
+    background-color: rgb(97, 97, 97);
+}
+
+.brand {
+    height: 70px;
+    padding: 20px 25px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu-item {
+    padding: 15px 25px;
+    color: rgba(0, 0, 0, 0.581);
+}
+
+.menu-item.active {
+    position: relative;
+    color: black;
+}
+
+.menu-item.active::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 5px;
+    height: 100%;
+    content: '';
+    background-color: rgb(60, 0, 255);
+}
+
+.btn {
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 25px;
+    color: white;
+    background-color: rgb(60, 0, 255);
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.input-group {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input-group .bi {
+    color: rgb(60, 0, 255);
+}
+
+.input-group input {
+    background: none;
+    border: 0;
+    outline: 0;
+}
+
+.profile {
+
+}
+
+.profile-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.profile-menu-item {
+    padding: 10px;
+    color: rgb(60, 0, 255);
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
