@@ -1,0 +1,26 @@
+{
+  "jsLectureId": 8,
+  "reward": 1,
+  "tutors": [
+    "Professor"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "First constants",
+      "description": [
+        "Find variables that were never changed after the initialization.",
+        "",
+        "Make them constants."
+      ]
+    },
+    "ru": {
+      "title": "Первые константы",
+      "description": [
+        "Найди переменные которые не изменяются после создания.",
+        "",
+        "Сделай их константами."
+      ]
+    }
+  }
+}

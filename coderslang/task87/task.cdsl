@@ -1,0 +1,28 @@
+{
+  "jsLectureId": 8,
+  "reward": 1,
+  "tutors": [
+    "Professor"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Create constants",
+      "description": [
+        "Create 5 constants in the file `solution.js`",
+        "Each constant should be initialized and created on a new line.",
+        "",
+        "Choose any names you like."
+      ]
+    },
+    "ru": {
+      "title": "Создай константы",
+      "description": [
+        "Создай 5 констант в файле `solution.js`",
+        "Каждая константа должна быть инициализирована и создана на отдельной строке.",
+        "",
+        "Выбери им любые имена."
+      ]
+    }
+  }
+}

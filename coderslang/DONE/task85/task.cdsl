@@ -1,0 +1,30 @@
+{
+  "jsLectureId": 8,
+  "reward": 3,
+  "tutors": [
+    "Professor"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Just a single character",
+      "description": [
+        "This task might contain some unfamiliar things.",
+        "",
+        "Don't stress it.",
+        "",
+        "You need to fix one character to make sure that **myMessage** is printed out to the console in UPPERCASE letters."
+      ]
+    },
+    "ru": {
+      "title": "Всего лишь один символ",
+      "description": [
+        "В этой задаче ты можешь встретить незнакомые вещи.",
+        "",
+        "Не переживай.",
+        "",
+        "Ты должен исправить один символ, чтобы строка **myMessage** была выведена на экран БОЛЬШИМИ буквами."
+      ]
+    }
+  }
+}

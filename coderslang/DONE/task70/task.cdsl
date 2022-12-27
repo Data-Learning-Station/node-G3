@@ -1,0 +1,39 @@
+{
+  "jsLectureId": 7,
+  "reward": 2,
+  "tutors": [
+    "Sigma",
+    "Technic"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Positive thinking",
+      "description": [
+        "The second task is harder than the first one.",
+        "Don't stress it. You just need to change the output string.",
+        "Start by running the code and make sure you can see the string `One day I will become a JS developer...` in the terminal",
+
+        "Then make the necessary adjustments to the program (in the file `solution.js`) so that the output string changes to `I will become a JS developer in 2022!`",
+        "Make sure that 2022 is the current year.",
+        "For example, if you're solving the task in the year 2025, then the desired output would be `I will become a JS developer in 2025!`",
+        "",
+        "P.S. [Here you can learn more about how text output works in JS with `console.log`](https://www.youtube.com/watch?v=4fqH3oL7HTs)",
+        "P.P.S. Once you solve *task1* and *task70* go back to the course at [js.coderslang.com](https://js.coderslang.com). You'll get new tasks after studying the next lecture."
+      ]
+    },
+    "ru": {
+      "title": "Позитивное мышление",
+      "description": [
+        "Вторая задача немного сложнее первой. Тебе нужно изменить строку, которая выводится на экран.",
+        "Начни с запуска кода и убедись что в терминале отображается строка `One day I will become a JS developer...`",
+        "Потом внеси изменения в программу (в файле `solution.js`) так, чтобы строка, которую ты видишь на экране изменилась на `I will become a JS developer in 2022`",
+        "Убедись в том, что 2022 - это текущий год.",
+        "Например, если вы выполняешь задачу в 2025 году, то на экране должно появиться: `I will become a JS developer in 2025!`",
+        "",
+        "P.S. [Тут ты можешь узнать больше о том как выводить текст в терминал с помощью `console.log`](https://www.youtube.com/watch?v=4fqH3oL7HTs)",
+        "P.P.S. Как только ты решишь задачи *task1* и *task70* возвращайся к курсу на [js.coderslang.com](https://js.coderslang.com). Новые задачи ты получишь после того, как изучишь следующую лекцию."
+      ]
+    }
+  }
+}

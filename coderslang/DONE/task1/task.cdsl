@@ -1,0 +1,36 @@
+{
+  "jsLectureId": 7,
+  "reward": 1,
+  "tutors": [
+    "Sigma",
+    "Technic"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "First program",
+      "description": [
+        "The program is already functional. Just make sure you have set everything up correctly by pressing the `Run your code` button",
+        "",
+        "You should see the message `Hello, world!` on the screen.",
+        "Then press the `Submit task` button to verify the code on our server.",
+        "",
+        "If you see some weird errors or any other issues, first try to [watch this video on YouTube](https://www.youtube.com/watch?v=MF9W9iOys8A).",
+        "The most common mistake here could be resolved by restarting VSCode after installing Node.js"
+      ]
+    },
+    "ru": {
+      "title": "Первая программа",
+      "description": [
+        "Первое задание нужно для того, чтобы убедиться в правильной настройке Visual Studio Code и рабочего окружения.",
+        "Изменять код не нужно. Просто выполни его с помощью кнопки `Запустить код`",
+        "",
+        "Ты должен увидеть на экран сообщение `Hello, world!`",
+        "",
+        "Если вместо этого ты видишь какие-то ошибки или не понимаешь что происходит, [посмотри это видео на YouTube](https://www.youtube.com/watch?v=MF9W9iOys8A).",
+        "Оно на английском, но думаю ты разберешься.",
+        "Большинство ошибок можно починить перезапуском VSCode после установки Node.js"
+      ]
+    }
+  }
+}

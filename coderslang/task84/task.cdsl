@@ -1,0 +1,28 @@
+{
+  "jsLectureId": 8,
+  "reward": 1,
+  "tutors": [
+    "Professor"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Let's fix the errors!",
+      "description": [
+        "Someone has crashed the code by initialising numbers as strings.",
+        "",
+        "Fix the initialization of variables `x` and `y` to make sure the number 4 is logged to the console.",
+        "Watch this video to [learn more about the differences between strings and numbers in JavaScript]()"
+      ]
+    },
+    "ru": {
+      "title": "Давай исправим ошибки!",
+      "description": [
+        "Кто-то сломал код тем что инициализировал числа как строки.",
+        "",
+        "Исправь создание переменных `x` и `y` в терминале появилось число 4.",
+        "Смотри это видео, чтобы [узнать больше о разнице между строками и числами в JavaScript]()"
+      ]
+    }
+  }
+}

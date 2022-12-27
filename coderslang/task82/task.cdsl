@@ -1,0 +1,26 @@
+{
+  "jsLectureId": 8,
+  "reward": 1,
+  "tutors": [
+    "Professor"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Init a string",
+      "description": [
+        "Take a look at a variable \"welcomeMessage\" initialised with the value \"Hello!\".",
+        "",
+        "Create a variable \"goodbyeMessage\" and initialize it with the string \"See you soon!\""
+      ]
+    },
+    "ru": {
+      "title": "Инициализация строки",
+      "description": [
+        "Посмотри как создается переменная \"welcomeMessage\" со значением \"Hello!\".",
+        "",
+        "Создай переменную \"goodbyeMessage\" со значением \"See you soon!\""
+      ]
+    }
+  }
+}

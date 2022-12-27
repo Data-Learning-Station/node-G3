@@ -1,0 +1,26 @@
+{
+  "jsLectureId": 8,
+  "reward": 1,
+  "tutors": [
+    "Professor"
+  ],
+  "runAs": "node",
+  "i18n": {
+    "en": {
+      "title": "Here comes the camel",
+      "description": [
+        "A lot of times we need to fix the code styling in legacy projects.",
+        "",
+        "Apply necessary changes and make sure all the variables names are written in `camelCase`."
+      ]
+    },
+    "ru": {
+      "title": "Верблюд подкрался незаметно",
+      "description": [
+        "Очень часто в старых проектах нам нужно исправлять стиль кода.",
+        "",
+        "Сделай необходимые изменения и убедись, что все имена всех переменных написаны в `camelCase`."
+      ]
+    }
+  }
+}
